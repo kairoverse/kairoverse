@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@kairoverse/editorjs": ["libs/editorjs/src/index.ts"]
+    }
   },
+  "include": [],
   "exclude": ["node_modules", "tmp"]
 }
